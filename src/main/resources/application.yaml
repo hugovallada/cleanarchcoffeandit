@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: cleanarchcourse
+  data:
+    mongodb:
+      user: coffeandit
+      password: coffeandit123
+      uri: mongodb://coffeandit:coffeandit123@localhost:27017/admin
+    redis:
+      host: localhost
+      port: 6379
+    payment:
+      maxFutureDays: 30
+      minFutureDays: 7
+
+    nats:
+      port: 4222
+      host: 0.0.0.0
